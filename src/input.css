@@ -2,4 +2,16 @@
 
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
+
+.card{
+    @apply relative bg-white rounded-md overflow-hidden shadow-md;
+}
+
+.badge{
+    @apply absolute top-0 ml-2 mt-2 uppercase bg-gray-200 text-gray-500 rounded-full py-1 px-1 text-xs;
+}
+
+.btn{
+    @apply rounded-full text-xs font-bold uppercase px-3 py-2 cursor-pointer tracking-wider;
+}
